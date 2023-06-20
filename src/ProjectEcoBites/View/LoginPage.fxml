@@ -6,9 +6,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectEcoBites.Controller.LoginController">
    <children>
-      <BorderPane prefHeight="900.0" prefWidth="1600.0">
+      <BorderPane fx:id="mainPane" prefHeight="900.0" prefWidth="1600.0">
          <center>
             <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
@@ -45,6 +45,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
+                  <Button layoutX="109.0" layoutY="27.0" mnemonicParsing="false" onAction="#keLanding" prefHeight="40.0" prefWidth="121.0" text="Button" />
                </children>
             </AnchorPane>
          </center>
