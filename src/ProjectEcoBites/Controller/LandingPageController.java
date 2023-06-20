@@ -26,13 +26,6 @@ import java.util.ResourceBundle;
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }
-
-
-
-
-    public ImageView getImageView() {
-        return null;
-    }    
+    } 
     
 }
