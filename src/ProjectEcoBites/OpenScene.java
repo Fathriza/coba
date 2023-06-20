@@ -19,7 +19,7 @@ public class OpenScene {
     
     public Pane getPane(String fileName){
         try{
-            URL fileHalaman=Main.class.getResource("/ProjectEcoBites/View"+fileName+".fxml");
+            URL fileHalaman=Main.class.getResource("/ProjectEcoBites/View/"+fileName+".fxml");
             
             if(fileHalaman==null){
                 throw new java.io.FileNotFoundException("Halaman tidak ditemukan");

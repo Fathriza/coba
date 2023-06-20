@@ -15,22 +15,17 @@ import java.util.ResourceBundle;
 
 import ProjectEcoBites.OpenScene;
 
-   public class LandingPageController implements Initializable {
+public class LandingPageController implements Initializable {
    
-     @FXML
-    private BorderPane border;
-
     @FXML
-    private ImageView logButton;
-
-    @FXML
-    private Button signButton;
-
-    @FXML
-    void keLogin(ActionEvent event) {
-
-    }
+    private BorderPane mainPane;
     
+    @FXML
+    private void keLoginPage(ActionEvent event) {
+        OpenScene object=new OpenScene();
+        Pane halaman=object.getPane("LoginPage");
+        mainPane.setCenter(halaman);
+    }
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
