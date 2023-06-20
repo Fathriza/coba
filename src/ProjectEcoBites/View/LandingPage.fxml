@@ -10,9 +10,9 @@
    <children>
       <BorderPane fx:id="mainPane" prefHeight="900.0" prefWidth="1600.0">
          <top>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <AnchorPane prefHeight="63.0" prefWidth="1600.0" BorderPane.alignment="CENTER">
                <children>
-                  <ImageView fitHeight="35.0" fitWidth="200.0" layoutX="61.0" layoutY="21.0">
+                  <ImageView fitHeight="35.0" fitWidth="200.0" layoutX="61.0" layoutY="11.0">
                      <image>
                         <Image url="@../Lunar/Group%203277%20(16).png" />
                      </image>
@@ -23,7 +23,7 @@
          <center>
             <AnchorPane prefHeight="572.0" prefWidth="1600.0" BorderPane.alignment="CENTER">
                <children>
-                  <ImageView fitHeight="375.0" fitWidth="417.0" layoutX="352.0" layoutY="183.0">
+                  <ImageView fitHeight="375.0" fitWidth="417.0" layoutY="31.0">
                      <image>
                         <Image url="@../Lunar/Group%203277%20(19).png" />
                      </image>
@@ -37,7 +37,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button fx:id="signButton" layoutX="680.0" layoutY="326.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="127.0" style="-fx-background-color: ffff;">
+                  <Button fx:id="signButton" layoutX="680.0" layoutY="326.0" mnemonicParsing="false" onAction="#keSignUp" prefHeight="62.0" prefWidth="127.0" style="-fx-background-color: ffff;">
                      <graphic>
                         <ImageView fitHeight="52.0" fitWidth="142.0">
                            <image>
@@ -49,11 +49,6 @@
                   <ImageView fitHeight="257.0" fitWidth="620.0" layoutX="478.0" layoutY="11.0">
                      <image>
                         <Image url="@../Lunar/Group%203277%20(1).png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="409.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../Lunar/Group%203277%20(11).png" />
                      </image>
                   </ImageView>
                </children>

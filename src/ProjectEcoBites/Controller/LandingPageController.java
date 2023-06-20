@@ -26,7 +26,12 @@ public class LandingPageController implements Initializable {
         Pane halaman=object.getPane("LoginPage");
         mainPane.setCenter(halaman);
     }
-    
+    @FXML
+    private void keSignUp(ActionEvent event) {
+        OpenScene object=new OpenScene();
+        Pane halaman=object.getPane("SignUpPage");
+        mainPane.setCenter(halaman);
+    }
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
