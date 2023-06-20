@@ -15,15 +15,15 @@ import java.util.ResourceBundle;
 
 import ProjectEcoBites.OpenScene;
 
-public class LoginKonsumenController implements Initializable {
+public class TampilanUtamaController implements Initializable {
    
     @FXML
     private BorderPane mainPane;
     
     @FXML
-    private void keTampilanUtama(ActionEvent event) {
+    private void keMenuOrder(ActionEvent event) {
         OpenScene object=new OpenScene();
-        Pane halaman=object.getPane("TampilanUtama");
+        Pane halaman=object.getPane("MenuOrder");
         mainPane.setCenter(halaman);
     }
 

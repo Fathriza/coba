@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="900.0" prefWidth="1600.0">
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="310.0" fitWidth="306.0" layoutX="167.0" layoutY="354.0">
+                     <image>
+                        <Image url="@../Lunar/Group%203277%20(27).png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="300.0" fitWidth="1276.0" layoutX="148.0" layoutY="17.0">
+                     <image>
+                        <Image url="@../Lunar/Group%203277%20(25).png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="310.0" fitWidth="306.0" layoutX="1117.0" layoutY="364.0">
+                     <image>
+                        <Image url="@../Lunar/Group%203277%20(27).png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="310.0" fitWidth="306.0" layoutX="648.0" layoutY="359.0">
+                     <image>
+                        <Image url="@../Lunar/Group%203277%20(27).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
