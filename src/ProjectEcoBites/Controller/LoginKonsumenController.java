@@ -15,27 +15,21 @@ import java.util.ResourceBundle;
 
 import ProjectEcoBites.OpenScene;
 
-public class LoginController implements Initializable {
+public class LoginKonsumenController implements Initializable {
    
     @FXML
     private BorderPane mainPane;
     
     @FXML
-    private void keLanding(ActionEvent event) {
+    private void keMenuOrder(ActionEvent event) {
         OpenScene object=new OpenScene();
         Pane halaman=object.getPane("LandingPage");
         mainPane.setCenter(halaman);
     }
-    @FXML
-    private void keLoginKonsumen(ActionEvent event) {
-        OpenScene object=new OpenScene();
-        Pane halaman=object.getPane("formLoginKonsumen");
-        mainPane.setCenter(halaman);
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'initialize'");
     }
-
-
-   @Override
-    public void initialize(URL url, ResourceBundle rb) {
-        // TODO
-    } 
 }

@@ -27,7 +27,7 @@
                         <Image url="@../Lunar/or.png" />
                      </image>
                   </ImageView>
-                  <Button layoutX="166.0" layoutY="282.0" mnemonicParsing="false" style="-fx-background-color: ffff;">
+                  <Button layoutX="166.0" layoutY="282.0" mnemonicParsing="false" onAction="#keLoginKonsumen" style="-fx-background-color: ffff;">
                      <graphic>
                         <ImageView fitHeight="63.0" fitWidth="338.0">
                            <image>
