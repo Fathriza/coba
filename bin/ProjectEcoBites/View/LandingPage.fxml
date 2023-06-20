@@ -6,8 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectEcoBites.Controller.LandingPageController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectEcoBites.Controller.LandingPageController">
    <children>
       <BorderPane fx:id="border" prefHeight="900.0" prefWidth="1600.0">
          <top>
@@ -24,14 +23,14 @@
          <center>
             <AnchorPane prefHeight="572.0" prefWidth="1600.0" BorderPane.alignment="CENTER">
                <children>
-                  <ImageView fitHeight="375.0" fitWidth="417.0" layoutX="51.0" layoutY="21.0">
+                  <ImageView fitHeight="375.0" fitWidth="417.0" layoutX="19.0" layoutY="15.0">
                      <image>
                         <Image url="@../Lunar/Group%203277%20(19).png" />
                      </image>
                   </ImageView>
-                  <Button fx:id="logButton" layoutX="470.0" layoutY="322.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="127.0" style="-fx-background-color: ffff;">
+                  <!-- <Button fx:id="logButton" layoutX="470.0" layoutY="322.0" mnemonicParsing="false" onAction="#keLogin" prefHeight="62.0" prefWidth="127.0" style="-fx-background-color: ffff;"> -->
                      <graphic>
-                        <ImageView fitHeight="49.0" fitWidth="144.0">
+                        <ImageView fx:id="logButton" fitHeight="49.0" fitWidth="144.0">
                            <image>
                               <Image url="@../Lunar/Group%203277%20(20).png" />
                            </image>
