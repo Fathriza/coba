@@ -54,14 +54,5 @@
             </AnchorPane>
          </center>
       </BorderPane>
-      <Button layoutX="1088.0" layoutY="638.0" mnemonicParsing="false" style="-fx-background-color: ffff;">
-         <graphic>
-            <ImageView fitHeight="56.0" fitWidth="280.0">
-               <image>
-                  <Image url="@../Lunar/Group%203257.png" />
-               </image>
-            </ImageView>
-         </graphic>
-      </Button>
    </children>
 </AnchorPane>
