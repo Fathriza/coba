@@ -32,6 +32,12 @@ public class LoginController implements Initializable {
         Pane halaman=object.getPane("formLoginKonsumen");
         mainPane.setCenter(halaman);
     }
+    @FXML
+    private void keLoginProdusen(ActionEvent event) {
+        OpenScene object=new OpenScene();
+        Pane halaman=object.getPane("formLoginProdusen");
+        mainPane.setCenter(halaman);
+    }
 
 
    @Override
