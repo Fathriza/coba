@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectEcoBites.Controller.MemilihPesananController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="326.0" fitWidth="854.0" layoutX="53.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/111/manamana/manamana/src/ProjectEcoBites/Lunar/Group%203248%20(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="365.0" fitWidth="498.0" layoutX="252.0" layoutY="417.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/111/manamana/manamana/src/ProjectEcoBites/Lunar/Component%201%20(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="47.0" fitWidth="583.0" layoutX="938.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/111/manamana/manamana/src/ProjectEcoBites/Lunar/Walaupun%20yang%20dikasih%20adalah%20makanan%20yang%20di-Reject,%20tetapi%20masih%20layak%20dimakan,%20yakin%20dahhh....png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="69.0" fitWidth="600.0" layoutX="527.0" layoutY="798.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/111/manamana/manamana/src/ProjectEcoBites/Lunar/Group%203.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="88.0" fitWidth="335.0" layoutX="1000.0" layoutY="684.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/111/manamana/manamana/src/ProjectEcoBites/Lunar/Group%203247.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="187.0" fitWidth="387.0" layoutX="972.0" layoutY="594.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/111/manamana/manamana/src/ProjectEcoBites/Lunar/Group%203254.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="178.0" fitWidth="429.0" layoutX="807.0" layoutY="518.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/111/manamana/manamana/src/ProjectEcoBites/Lunar/Burger%20yang%20dagingnya%20OverCooked%20tapi%20masih%20layak%20dimakan.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="119.0" fitWidth="572.0" layoutX="805.0" layoutY="451.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/111/manamana/manamana/src/ProjectEcoBites/Lunar/Burger%20Double%20Beef.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="234.0" layoutX="954.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/111/manamana/manamana/src/ProjectEcoBites/Lunar/Jl.%20Kaliurang%20KM.%2014,5.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="71.0" fitWidth="506.0" layoutX="936.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../Downloads/111/manamana/manamana/src/ProjectEcoBites/Lunar/Warung%20Nasi%20Kandar.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
