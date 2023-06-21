@@ -26,18 +26,20 @@
                   <Image url="@../../../../manamana/src/ProjectEcoBites/Lunar/Component%202.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="109.0" fitWidth="446.0" layoutX="802.0" layoutY="590.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../../../manamana/src/ProjectEcoBites/Lunar/Group%203258.png" />
-               </image>
-            </ImageView>
             <ImageView fitHeight="114.0" fitWidth="315.0" layoutX="1040.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../manamana/src/ProjectEcoBites/Lunar/Group%203250.png" />
                </image>
             </ImageView>
-            <TextField layoutX="676.0" layoutY="685.0" prefHeight="35.0" prefWidth="749.0" promptText="write a message..." />
-            <Button layoutX="794.0" layoutY="584.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="455.0" text="Button" visible="false" />
+            <TextField layoutX="676.0" layoutY="685.0" onAction="#textfieldTulisPesan" prefHeight="35.0" prefWidth="749.0" promptText="write a message..." />
+            <Button fx:id="keTampilanUtamaP" layoutX="794.0" layoutY="584.0" mnemonicParsing="false" onAction="#buttonKonfirmasiPesanan" prefHeight="53.0" prefWidth="455.0" style="-fx-background-color: ffff;">
+               <graphic>
+                  <ImageView fitHeight="109.0" fitWidth="446.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../manamana/src/ProjectEcoBites/Lunar/Group%203258.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
             <ImageView fitHeight="114.0" fitWidth="315.0" layoutX="657.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../manamana/src/ProjectEcoBites/Lunar/Group%203250.png" />
