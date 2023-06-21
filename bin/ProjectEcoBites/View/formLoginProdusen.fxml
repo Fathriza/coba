@@ -8,8 +8,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectEcoBites.Controller.LoginProdusenController">
    <children>
       <BorderPane fx:id="mainPane" prefHeight="900.0" prefWidth="1600.0">
          <center>
@@ -35,7 +34,7 @@
                         <Font size="24.0" />
                      </font>
                   </TextField>
-                  <Button layoutX="180.0" layoutY="421.0" mnemonicParsing="false" style="-fx-background-color: ffff;">
+                  <Button layoutX="180.0" layoutY="421.0" mnemonicParsing="false" onAction="#keTampilanUtamaP" style="-fx-background-color: ffff;">
                      <graphic>
                         <ImageView fitHeight="31.0" fitWidth="200.0">
                            <image>

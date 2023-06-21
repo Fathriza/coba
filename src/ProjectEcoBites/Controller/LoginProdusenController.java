@@ -21,9 +21,9 @@ public class LoginProdusenController implements Initializable {
     private BorderPane mainPane;
     
     @FXML
-    private void keTampilanUtama(ActionEvent event) {
+    private void keTampilanUtamaP(ActionEvent event) {
         OpenScene object=new OpenScene();
-        Pane halaman=object.getPane("TampilanUtamaProdusen");
+        Pane halaman=object.getPane("TampilanUtamaP");
         mainPane.setCenter(halaman);
     }
 
