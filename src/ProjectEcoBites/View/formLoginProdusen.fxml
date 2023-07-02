@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectEcoBites.Controller.formLoginProdusenController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectEcoBites.Controller.formLoginProdusenController">
    <children>
       <BorderPane fx:id="mainPane" prefHeight="900.0" prefWidth="1600.0">
          <center>
@@ -23,8 +23,8 @@
                         <Image url="@../Lunar/Group%203277%20(13).png" />
                      </image>
                   </ImageView>
-                  <TextField layoutX="92.0" layoutY="275.0" prefHeight="40.0" prefWidth="385.0" />
-                  <TextField layoutX="92.0" layoutY="365.0" prefHeight="40.0" prefWidth="385.0" />
+                  <TextField layoutX="92.0" layoutY="275.0" prefHeight="40.0" prefWidth="385.0" promptText="Nama" />
+                  <TextField layoutX="92.0" layoutY="365.0" prefHeight="40.0" prefWidth="385.0" promptText="Email" />
                   <Button layoutX="180.0" layoutY="477.0" mnemonicParsing="false" onAction="#keTampilanUtamaP" style="-fx-background-color: ffff;">
                      <graphic>
                         <ImageView fitHeight="44.0" fitWidth="200.0">

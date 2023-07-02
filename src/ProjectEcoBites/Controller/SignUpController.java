@@ -21,11 +21,13 @@ public class SignUpController implements Initializable {
     private BorderPane mainPane;
     
     @FXML
-    private void keTampilanUtama(ActionEvent event) {
+    private void keTampilanUtamaKonsumen(ActionEvent event) {
         OpenScene object=new OpenScene();
-        Pane halaman=object.getPane("TampilanUtama");
+        Pane halaman=object.getPane("TampilanUtamaKonsumen");
         mainPane.setCenter(halaman);
     }
+    
+
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {

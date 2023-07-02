@@ -5,43 +5,52 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectEcoBites.Controller.SignUpController">
    <children>
-      <ImageView fitHeight="111.0" fitWidth="543.0" layoutX="196.0" layoutY="86.0">
-         <image>
-            <Image url="@../Lunar/Group%203277%20(15).png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="665.0" fitWidth="630.0" layoutX="880.0" layoutY="85.0">
-         <image>
-            <Image url="@../Lunar/Group%203277%20(11).png" />
-         </image>
-      </ImageView>
-      <TextField layoutX="209.0" layoutY="245.0" prefHeight="43.0" prefWidth="406.0" text="Nama">
-         <font>
-            <Font name="Arial" size="18.0" />
-         </font>
-      </TextField>
-      <TextField layoutX="209.0" layoutY="324.0" prefHeight="43.0" prefWidth="406.0" text="Email">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </TextField>
-      <TextField layoutX="214.0" layoutY="415.0" prefHeight="43.0" prefWidth="406.0" text="Password">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </TextField>
-      <Button layoutX="252.0" layoutY="504.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="314.0" style="-fx-background-color: ffff;">
-         <graphic>
-            <ImageView fitHeight="49.0" fitWidth="314.0">
-               <image>
-                  <Image url="@../Lunar/Group%203277%20(10).png" />
-               </image>
-            </ImageView>
-         </graphic>
-      </Button>
+      <BorderPane fx:id="mainPane" layoutX="-3.0" layoutY="3.0" prefHeight="892.0" prefWidth="1603.0">
+         <center>
+            <AnchorPane accessibleRole="IMAGE_VIEW" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="117.0" fitWidth="615.0" layoutX="82.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Lunar/Group%203277%20(12).png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="625.0" fitWidth="497.0" layoutX="956.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Lunar/Group%203277%20(11).png" />
+                     </image>
+                  </ImageView>
+                  <TextField layoutX="92.0" layoutY="275.0" prefHeight="53.0" prefWidth="441.0" promptText="Nama">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="94.0" layoutY="367.0" prefHeight="53.0" prefWidth="441.0" promptText="Email">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </TextField>
+                  <TextField layoutX="93.0" layoutY="452.0" prefHeight="53.0" prefWidth="441.0" promptText="Password">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </TextField>
+                  <Button layoutX="209.0" layoutY="553.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="123.0" text="Button">
+                     <graphic>
+                        <ImageView fitHeight="42.0" fitWidth="299.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Lunar/Group%203277%20(10).png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
    </children>
 </AnchorPane>
