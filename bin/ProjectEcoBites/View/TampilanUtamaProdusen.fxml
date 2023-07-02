@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectEcoBites.Controller.TampilanUtamaKonsumenController">
+   <children>
+      <BorderPane fx:id="mainPane" prefHeight="900.0" prefWidth="1600.0">
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="361.0" fitWidth="1124.0" layoutX="247.0" layoutY="88.0">
+                     <image>
+                        <Image url="@../Lunar/Group%203277%20(26).png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="288.0" fitWidth="1154.0" layoutX="222.0" layoutY="472.0">
+                     <image>
+                        <Image url="@../Lunar/Group%203277%20(28).png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="1199.0" layoutY="394.0" mnemonicParsing="false" onAction="#keUploadMakan" style="-fx-background-color: ffff;">
+                     <graphic>
+                        <ImageView fitHeight="42.0" fitWidth="130.0">
+                           <image>
+                              <Image url="@../Lunar/Group%203277%20(29).png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -15,26 +15,19 @@ import java.util.ResourceBundle;
 
 import ProjectEcoBites.OpenScene;
 
-public class LoginController implements Initializable {
+public class formLoginProdusenController implements Initializable {
    
     @FXML
     private BorderPane mainPane;
     
-    
     @FXML
-    private void keloginKonsumen(ActionEvent event) {
+    private void keTampilanUtamaP(ActionEvent event) {
         OpenScene object=new OpenScene();
-        Pane halaman=object.getPane("formLoginKonsumen");
-        mainPane.setCenter(halaman);
-    }
-    @FXML
-    private void keloginProdusen(ActionEvent event) {
-        OpenScene object=new OpenScene();
-        Pane halaman=object.getPane("formLoginProdusen");
+        Pane halaman=object.getPane("TampilanUtamaProdusen");
         mainPane.setCenter(halaman);
     }
 
-   @Override
+    @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     } 
