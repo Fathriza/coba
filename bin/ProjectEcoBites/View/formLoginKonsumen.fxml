@@ -6,10 +6,11 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectEcoBites.Controller.formLoginKonsumenController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectEcoBites.Controller.formLoginKonsumenController">
    <children>
-      <BorderPane fx:id="mainPane" prefHeight="900.0" prefWidth="1600.0">
+      <BorderPane fx:id="mainPane" prefHeight="900.0" prefWidth="1600.0" style="-fx-background-color: ffff;">
          <center>
             <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
@@ -23,9 +24,15 @@
                         <Image url="@../Lunar/Group%203277%20(13).png" />
                      </image>
                   </ImageView>
-                  <TextField layoutX="92.0" layoutY="275.0" prefHeight="40.0" prefWidth="385.0" promptText="Nama" />
-                  <TextField layoutX="92.0" layoutY="365.0" prefHeight="40.0" prefWidth="385.0" promptText="Email" />
-                  <Button layoutX="180.0" layoutY="477.0" mnemonicParsing="false" onAction="#keTampilanUtamaKonsumen" style="-fx-background-color: ffff;">
+                  <TextField fx:id="emailLogKonsumen" layoutX="172.0" layoutY="275.0" prefHeight="40.0" prefWidth="385.0" promptText="Email">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextField>
+                  <TextField fx:id="passLogKonsumen" layoutX="172.0" layoutY="365.0" prefHeight="40.0" prefWidth="385.0" promptText="Password">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextField>
+                  <Button layoutX="248.0" layoutY="466.0" mnemonicParsing="false" onAction="#keTampilanUtamaKonsumen" style="-fx-background-color: ffff;">
                      <graphic>
                         <ImageView fitHeight="44.0" fitWidth="200.0">
                            <image>
@@ -34,6 +41,21 @@
                         </ImageView>
                      </graphic>
                   </Button>
+                  <ImageView fitHeight="59.0" fitWidth="59.0" layoutX="108.0" layoutY="361.0">
+                     <image>
+                        <Image url="@../Lunar/mdi_password-outline.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="116.0" layoutY="275.0">
+                     <image>
+                        <Image url="@../Lunar/codicon_account.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="51.0" fitWidth="200.0" layoutX="254.0" layoutY="552.0">
+                     <image>
+                        <Image url="@../Lunar/APP%20BY%20LUNAR%20AI.png" />
+                     </image>
+                  </ImageView>
                </children>
             </AnchorPane>
          </center>

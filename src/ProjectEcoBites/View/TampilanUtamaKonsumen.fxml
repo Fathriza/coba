@@ -12,7 +12,7 @@
          <center>
             <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
-                  <ImageView fitHeight="361.0" fitWidth="1124.0" layoutX="247.0" layoutY="88.0">
+                  <ImageView fitHeight="361.0" fitWidth="1124.0" layoutX="215.0" layoutY="80.0">
                      <image>
                         <Image url="@../Lunar/Group%203277%20(26).png" />
                      </image>
@@ -22,11 +22,20 @@
                         <Image url="@../Lunar/Group%203277%20(28).png" />
                      </image>
                   </ImageView>
-                  <Button layoutX="1200.0" layoutY="386.0" mnemonicParsing="false" onAction="#keOrderMakan" style="-fx-background-color: ffff;">
+                  <Button layoutX="1184.0" layoutY="84.0" mnemonicParsing="false" onAction="#keOrderMakan" style="-fx-background-color: no;">
                      <graphic>
                         <ImageView fitHeight="51.0" fitWidth="128.0">
                            <image>
                               <Image url="@../Lunar/Group%203277%20(14).png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="1133.0" layoutY="469.0" mnemonicParsing="false" onAction="#keHistoryKonsum" prefHeight="74.0" prefWidth="243.0" style="-fx-background-color: no;">
+                     <graphic>
+                        <ImageView fitHeight="63.0" fitWidth="200.0">
+                           <image>
+                              <Image url="@../Lunar/HISTO.png" />
                            </image>
                         </ImageView>
                      </graphic>

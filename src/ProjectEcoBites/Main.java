@@ -9,7 +9,7 @@ import javafx.scene.image.ImageView;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
-/**
+/**..\
  *
  * @author andhika
  */

@@ -6,9 +6,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectEcoBites.Controller.TampilanUtamaKonsumenController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectEcoBites.Controller.TampilanUtamaProdusenController">
    <children>
-      <BorderPane fx:id="mainPane" prefHeight="900.0" prefWidth="1600.0">
+      <BorderPane fx:id="mainPane" layoutX="10.0" layoutY="10.0" prefHeight="900.0" prefWidth="1600.0">
          <center>
             <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
@@ -22,7 +22,7 @@
                         <Image url="@../Lunar/Group%203277%20(28).png" />
                      </image>
                   </ImageView>
-                  <Button layoutX="1199.0" layoutY="394.0" mnemonicParsing="false" onAction="#keUploadMakan" style="-fx-background-color: ffff;">
+                  <Button layoutX="1199.0" layoutY="394.0" mnemonicParsing="false" onAction="#keUploadMakan" style="-fx-background-color: no;">
                      <graphic>
                         <ImageView fitHeight="42.0" fitWidth="130.0">
                            <image>

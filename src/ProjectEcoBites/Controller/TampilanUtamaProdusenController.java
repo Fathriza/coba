@@ -15,7 +15,7 @@ import java.util.ResourceBundle;
 
 import ProjectEcoBites.OpenScene;
 
-public class TampilanUtamaPodusenController implements Initializable {
+public class TampilanUtamaProdusenController implements Initializable {
    
     @FXML
     private BorderPane mainPane;
@@ -23,7 +23,7 @@ public class TampilanUtamaPodusenController implements Initializable {
     @FXML
     private void keUploadMakan(ActionEvent event) {
         OpenScene object=new OpenScene();
-        Pane halaman=object.getPane("UploadMakanan");
+        Pane halaman=object.getPane("formUploadProdusen");
         mainPane.setCenter(halaman);
     }
 

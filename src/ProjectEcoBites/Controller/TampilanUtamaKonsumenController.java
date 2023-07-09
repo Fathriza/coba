@@ -25,6 +25,14 @@ public class TampilanUtamaKonsumenController implements Initializable {
         OpenScene object=new OpenScene();
         Pane halaman=object.getPane("OrderMakanan");
         mainPane.setCenter(halaman);
+
+    }
+
+    @FXML
+    private void keHistoryKonsum(ActionEvent event) {
+        OpenScene object=new OpenScene();
+        Pane halaman=object.getPane("TampilanHistoryKonsumen");
+        mainPane.setCenter(halaman);
     }
 
     @Override

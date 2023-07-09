@@ -34,4 +34,8 @@ public class OpenScene {
         
         return halaman;
     }
+
+    public Object getLoader() {
+        return null;
+    }
 }

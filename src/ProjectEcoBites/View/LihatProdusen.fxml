@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectEcoBites.Controller.LihatProdusenController">
+   <children>
+      <BorderPane fx:id="mainPane" prefHeight="900.0" prefWidth="1600.0" style="-fx-background-color: ffff;">
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="281.0" fitWidth="1194.0" layoutX="208.0" layoutY="59.0">
+                     <image>
+                        <Image url="@../Lunar/Group%203277%20(25).png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="271.0" layoutY="680.0" mnemonicParsing="false" onAction="#keLihat" style="-fx-background-color: ffff;">
+                     <graphic>
+                        <ImageView fitHeight="41.0" fitWidth="291.0">
+                           <image>
+                              <Image url="@../Lunar/lihat.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <TextArea fx:id="tampilDeskripsi" editable="false" layoutX="274.0" layoutY="559.0" prefHeight="107.0" prefWidth="290.0" />
+                  <ImageView fitHeight="180.0" fitWidth="299.0" layoutX="273.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="180.0" fitWidth="299.0" layoutX="645.0" layoutY="364.0" pickOnBounds="true" preserveRatio="true" />
+                  <TextArea fx:id="tampilDeskripsi1" editable="false" layoutX="654.0" layoutY="559.0" prefHeight="107.0" prefWidth="290.0" />
+                  <TextArea fx:id="tampilDeskripsi2" editable="false" layoutX="1044.0" layoutY="559.0" prefHeight="107.0" prefWidth="290.0" />
+                  <ImageView fitHeight="180.0" fitWidth="299.0" layoutX="1035.0" layoutY="364.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button layoutX="648.0" layoutY="680.0" mnemonicParsing="false" onAction="#keLihat" style="-fx-background-color: ffff;">
+                     <graphic>
+                        <ImageView fitHeight="41.0" fitWidth="291.0">
+                           <image>
+                              <Image url="@../Lunar/lihat.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="1038.0" layoutY="681.0" mnemonicParsing="false" onAction="#keLihat" style="-fx-background-color: ffff;">
+                     <graphic>
+                        <ImageView fitHeight="41.0" fitWidth="291.0">
+                           <image>
+                              <Image url="@../Lunar/lihat.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="266.0" layoutY="741.0" mnemonicParsing="false" onAction="#keEdit" style="-fx-background-color: NO;">
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="293.0">
+                           <image>
+                              <Image url="@../Lunar/EDIT.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="646.0" layoutY="741.0" mnemonicParsing="false" onAction="#keEdit" style="-fx-background-color: NO;">
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="293.0">
+                           <image>
+                              <Image url="@../Lunar/EDIT.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="1038.0" layoutY="738.0" mnemonicParsing="false" onAction="#keEdit" style="-fx-background-color: NO;">
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="293.0">
+                           <image>
+                              <Image url="@../Lunar/EDIT.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

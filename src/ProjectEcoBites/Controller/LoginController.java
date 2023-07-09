@@ -9,16 +9,26 @@ import javafx.scene.layout.Border;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 
+import com.thoughtworks.xstream.XStream;
+import com.thoughtworks.xstream.io.xml.StaxDriver;
+import com.thoughtworks.xstream.security.AnyTypePermission;
+
 import ProjectEcoBites.OpenScene;
+import ProjectEcoBites.Model.Konsumen;
+import ProjectEcoBites.Model.Produsen;
 
 public class LoginController implements Initializable {
-   
+
     @FXML
     private BorderPane mainPane;
+
+   
     
     
     @FXML
